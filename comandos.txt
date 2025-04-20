@@ -24,3 +24,9 @@ C:> .\.venv\Scripts\activate
 (.venv):> git add .gitignore
 
 (.venv):> git add .
+
+(.venv):> git config --global user.name "ramoswrr"
+
+(.venv):> git config --global user.email "ramoswrr@gmail.com"
+
+(.venv):> git commit -m "Iniciando o projeto"
