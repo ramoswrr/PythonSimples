@@ -1,0 +1,26 @@
+Ambientes Virtuais: É uma boa prática usar ambientes virtuais para gerenciar dependências. Você pode criar um ambiente virtual com python -m venv nome_do_ambiente.
+C:> python -m venv .venv
+
+C:> .\.venv\Scripts\activate
+
+(.venv):> pip list
+
+(.venv):> pip install pandas
+
+(.venv):> pip list
+
+(.venv):> pip freeze > requirements.txt
+
+(.venv):> pip install -r requirements.txt
+
+(.venv):> pip freeze > requirements.txt
+
+
+----------------------------------------- GitHub
+(.venv):> git init
+
+(.venv):> git status
+
+(.venv):> git add .gitignore
+
+(.venv):> git add .
