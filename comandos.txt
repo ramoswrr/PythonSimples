@@ -30,3 +30,9 @@ C:> .\.venv\Scripts\activate
 (.venv):> git config --global user.email "ramoswrr@gmail.com"
 
 (.venv):> git commit -m "Iniciando o projeto"
+
+(.venv):> git branch -M main
+
+(.venv):> git remote add origin https://github.com/ramoswrr/PythonSimples.git
+
+(.venv):> git push -u origin main
